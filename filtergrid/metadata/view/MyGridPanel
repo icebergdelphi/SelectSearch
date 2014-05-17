@@ -1,0 +1,84 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MyGridPanel",
+        "height": 351,
+        "store": "MyJsonStore",
+        "title": "My Grid Panel",
+        "width": 877
+    },
+    "designerId": "3e75374d-7676-4c60-a0bc-1ebe052e54c6",
+    "cn": [
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "8b15163c-4ae5-4c64-a63f-97c1d84d6b9f"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "idcliente",
+                "hidden": true,
+                "text": "Idcliente"
+            },
+            "designerId": "f541b14e-a8af-4fc4-8eef-9cb70ac31748"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "Cliente",
+                "flex": 2,
+                "text": "Cliente"
+            },
+            "designerId": "a55a6904-ba14-45b6-8017-82d43dbbdf75"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "Sexo",
+                "flex": 1,
+                "text": "Sexo"
+            },
+            "designerId": "bfc316bc-7801-44fe-978d-f4e53aacb471"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "Edad",
+                "flex": 1,
+                "text": "Edad"
+            },
+            "designerId": "da8b2524-1fc2-42f2-9a4f-40c5963f0d4e"
+        }
+    ]
+}
